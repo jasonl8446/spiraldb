@@ -75,6 +75,11 @@
       "TemplateID": 1786754100,
       "RequiredSpellID": 1627273980,
       "Level": 38
+    },
+    {
+      "TemplateID": 743740871,
+      "RequiredSpellID": 0,
+      "Level": 5
     }
   ]
 }
