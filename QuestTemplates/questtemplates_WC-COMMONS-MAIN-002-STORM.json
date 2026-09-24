@@ -26,7 +26,7 @@
       "m_locationName": "ZoneLocName_1451497",
       "m_displayImage1": "GUI/NpcPortraits/Art_Portrait_Registrar.dds",
       "m_displayImage2": "",
-      "m_clientTags": ["WC-GTW-Registrar"],
+      "m_clientTags": [],
       "m_genericEvents": [],
       "m_autoQualify": false,
       "m_autoComplete": false,
@@ -1173,7 +1173,7 @@
       "m_hideGoalFloatyText": false,
       "m_behaviors": null,
 
-      "m_personaName": "",
+      "m_personaName": "WC-GTW-Registrar",
       "m_usePatron": false
     },
     {
@@ -1657,7 +1657,7 @@
       "m_locationName": "ZoneLocName_818957",
       "m_displayImage1": "GUI/NpcPortraits/Art_Portrait_Registrar.dds",
       "m_displayImage2": "",
-      "m_clientTags": ["WC-GTW-Registrar"],
+      "m_clientTags": [],
       "m_genericEvents": [],
       "m_autoQualify": false,
       "m_autoComplete": false,
@@ -2107,7 +2107,7 @@
       "m_hideGoalFloatyText": false,
       "m_behaviors": null,
 
-      "m_personaName": "",
+      "m_personaName": "WC-GTW-Registrar",
       "m_usePatron": false
     },
     {
