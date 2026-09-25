@@ -6,7 +6,9 @@
   "m_questPrep": null,
   "m_questUnderway": null,
   "m_questComplete": null,
-  "m_startGoals": [],
+  "m_startGoals": [
+    "1_WizardQuestGoals_Kill"
+  ],
   "m_goals": [
     {
       "$type": "Imcodec.ObjectProperty.TypeCache.BountyGoalTemplate, Imcodec.ObjectProperty",
@@ -178,7 +180,28 @@
   "m_pruneRequirements": null,
   "m_prepAlways": false,
   "m_clientTags": null,
-  "m_goalLogic": [],
+  "m_goalLogic": [
+    {
+      "m_goalsAND": [
+        "1_WizardQuestGoals_Kill"
+      ],
+      "m_goalsOR": [],
+      "m_goalsToAdd": [
+        "2_WizardQuestGoals_TalkNPC"
+      ],
+      "m_completeQuest": false,
+      "m_requiredORCount": 1
+    },
+    {
+      "m_goalsAND": [
+        "2_WizardQuestGoals_TalkNPC"
+      ],
+      "m_goalsOR": [],
+      "m_goalsToAdd": [],
+      "m_completeQuest": true,
+      "m_requiredORCount": 1
+    }
+  ],
   "m_questLevel": 1,
   "m_questRepeat": 0,
   "m_onStartQuestScript": "",
