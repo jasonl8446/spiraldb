@@ -36,7 +36,7 @@
           "m_results": []
         }
       },
-      "m_locationName": "",
+      "m_locationName": "ZoneLocName_595390",
       "m_displayImage1": "|_Shared|WorldData|GUI/NpcPortraits/Portrait_Skeleton_Pirate_A_MOB.dds",
       "m_displayImage2": "",
       "m_clientTags": [],
@@ -70,7 +70,7 @@
       },
       "m_goalRequirements": null,
       "m_tallyCounter": null,
-      "m_locationName": "",
+      "m_locationName": "ZoneLocName_595390",
       "m_displayImage1": "GUI/NpcPortraits/Human_WCShopKeepF_A_NPC.dds",
       "m_displayImage2": "",
       "m_clientTags": [],
