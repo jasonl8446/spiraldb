@@ -1,0 +1,20 @@
+{
+  "Name": "WC-UNICORN-SIDE-001",
+  "Description": "Pesky Pirates quest reward",
+  "RollChance": 1.0,
+  "Weight": 100,
+  "NoneChance": 0.0,
+  "PityCounter": 0.0,
+  "MinGold": 10,
+  "MaxGold": 10,
+  "ExperienceAmount": 35,
+  "TrainingPoints": 0,
+  "Items": [
+    {
+      "ItemId": "4757",
+      "ItemName": "Flawed Opal Band",
+      "Notes": "Ring-T1-008",
+      "Requirements": null
+    }
+  ]
+}
