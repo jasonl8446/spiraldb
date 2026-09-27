@@ -107,8 +107,7 @@
                 "m_restartMusicFadeTime": 0.0,
                 "m_meetsRequirements": true,
                 "m_secondaryCameraInitalDelay": 0.0,
-                "m_displayButtonsOnTimedDialog": false,
-
+                "m_displayButtonsOnTimedDialog": false
               },
               {
                 "$type": "Imcodec.ObjectProperty.TypeCache.NPCDialogEntry, Imcodec.ObjectProperty",
@@ -178,8 +177,7 @@
                 "m_restartMusicFadeTime": 0.0,
                 "m_meetsRequirements": true,
                 "m_secondaryCameraInitalDelay": 0.0,
-                "m_displayButtonsOnTimedDialog": false,
-
+                "m_displayButtonsOnTimedDialog": false
               },
               {
                 "$type": "Imcodec.ObjectProperty.TypeCache.NPCDialogEntry, Imcodec.ObjectProperty",
@@ -247,8 +245,7 @@
                 "m_restartMusicFadeTime": 0.0,
                 "m_meetsRequirements": true,
                 "m_secondaryCameraInitalDelay": 0.0,
-                "m_displayButtonsOnTimedDialog": false,
-
+                "m_displayButtonsOnTimedDialog": false
               },
               {
                 "$type": "Imcodec.ObjectProperty.TypeCache.NPCDialogEntry, Imcodec.ObjectProperty",
@@ -316,8 +313,7 @@
                 "m_restartMusicFadeTime": 0.0,
                 "m_meetsRequirements": true,
                 "m_secondaryCameraInitalDelay": 0.0,
-                "m_displayButtonsOnTimedDialog": false,
-
+                "m_displayButtonsOnTimedDialog": false
               }
             ],
             "m_madlibs": [
@@ -369,8 +365,7 @@
       },
       "m_hideGoalFloatyText": false,
       "m_behaviors": null,
-
-      "m_personaName": "",
+      "m_personaName": "WC-FIRECAT-NPC03",
       "m_usePatron": false
     },
     {
@@ -385,7 +380,15 @@
         "m_results": []
       },
       "m_goalRequirements": null,
-      "m_tallyCounter": null,
+      "m_tallyCounter": {
+        "m_percentChance": 1.0,
+        "m_descriptor": "",
+        "m_descriptor2": "WizardMobs_00000005",
+        "m_count": 2,
+        "m_tallyResults": {
+          "m_results": []
+        }
+      },
       "m_locationName": "ZoneLocName_406880",
       "m_displayImage1": "GUI/NpcPortraits/Art_Portrait_Fire_Elf_Yellow.dds",
       "m_displayImage2": "",
@@ -397,7 +400,7 @@
       "m_autoComplete": false,
       "m_destinationZone": "",
       "m_dialogList": null,
-      "m_goalType": "GOAL_TYPE_BOUNTYCOLLECT",
+      "m_goalType": "GOAL_TYPE_BOUNTY",
       "m_noQuestHelper": false,
       "m_petOnlyQuest": false,
       "m_activateResults": {
@@ -405,8 +408,10 @@
       },
       "m_hideGoalFloatyText": false,
       "m_behaviors": null,
-
-      "m_bountyTotal": 2
+      "m_bountyTotal": 2,
+      "m_npcAdjectives": [
+        "Fire_Elf_Pathfinder"
+      ]
     },
     {
       "$type": "Imcodec.ObjectProperty.TypeCache.PersonaGoalTemplate, Imcodec.ObjectProperty",
@@ -503,8 +508,7 @@
                 "m_restartMusicFadeTime": 0.0,
                 "m_meetsRequirements": true,
                 "m_secondaryCameraInitalDelay": 0.0,
-                "m_displayButtonsOnTimedDialog": false,
-
+                "m_displayButtonsOnTimedDialog": false
               },
               {
                 "$type": "Imcodec.ObjectProperty.TypeCache.NPCDialogEntry, Imcodec.ObjectProperty",
@@ -572,8 +576,7 @@
                 "m_restartMusicFadeTime": 0.0,
                 "m_meetsRequirements": true,
                 "m_secondaryCameraInitalDelay": 0.0,
-                "m_displayButtonsOnTimedDialog": false,
-
+                "m_displayButtonsOnTimedDialog": false
               }
             ],
             "m_madlibs": [
@@ -625,8 +628,7 @@
       },
       "m_hideGoalFloatyText": false,
       "m_behaviors": null,
-
-      "m_personaName": "",
+      "m_personaName": "WC-FIRECAT-NPC03",
       "m_usePatron": false
     },
     {
@@ -641,7 +643,15 @@
         "m_results": []
       },
       "m_goalRequirements": null,
-      "m_tallyCounter": null,
+      "m_tallyCounter": {
+        "m_percentChance": 1.0,
+        "m_descriptor": "WizQst173595_00000022",
+        "m_descriptor2": "",
+        "m_count": 0,
+        "m_tallyResults": {
+          "m_results": []
+        }
+      },
       "m_locationName": "ZoneLocName_114526",
       "m_displayImage1": "GUI/NpcPortraits/Portrait_Human_GrettaDK_A_NPC.dds",
       "m_displayImage2": "",
@@ -652,7 +662,7 @@
       "m_genericEvents": [],
       "m_autoQualify": false,
       "m_autoComplete": false,
-      "m_destinationZone": "",
+      "m_destinationZone": "WizardCity/WC_Streets/Interiors/WC_Firecat_H2",
       "m_dialogList": null,
       "m_goalType": "GOAL_TYPE_WAYPOINT",
       "m_noQuestHelper": false,
@@ -662,14 +672,13 @@
       },
       "m_hideGoalFloatyText": false,
       "m_behaviors": null,
-
       "m_zoneEntry": true,
-      "m_zoneTag": "",
+      "m_zoneTag": "WizardCity/WC_Streets/Interiors/WC_Firecat_H2",
       "m_proximityTag": "",
       "m_zoneExit": false
     },
     {
-      "$type": "Imcodec.ObjectProperty.TypeCache.ScavengeGoalTemplate, Imcodec.ObjectProperty",
+      "$type": "Imcodec.ObjectProperty.TypeCache.BountyGoalTemplate, Imcodec.ObjectProperty",
       "m_goalName": "5_WizardQuestGoals_KillCollect",
       "m_goalNameID": 673648071,
       "m_goalTitle": "WizardQuestGoals_KillCollect",
@@ -680,7 +689,15 @@
         "m_results": []
       },
       "m_goalRequirements": null,
-      "m_tallyCounter": null,
+      "m_tallyCounter": {
+        "m_percentChance": 1.0,
+        "m_descriptor": "WizQst173595_00000019",
+        "m_descriptor2": "WizardMobs_00000329",
+        "m_count": 2,
+        "m_tallyResults": {
+          "m_results": []
+        }
+      },
       "m_locationName": "ZoneLocName_406880",
       "m_displayImage1": "GUI/NpcPortraits/Portraits_Snowman_Base_B_MOB.dds",
       "m_displayImage2": "",
@@ -690,9 +707,9 @@
       "m_genericEvents": [],
       "m_autoQualify": false,
       "m_autoComplete": false,
-      "m_destinationZone": "",
+      "m_destinationZone": "WizardCity/WC_Streets/WC_Firecat",
       "m_dialogList": null,
-      "m_goalType": "GOAL_TYPE_SCAVENGE",
+      "m_goalType": "GOAL_TYPE_BOUNTYCOLLECT",
       "m_noQuestHelper": false,
       "m_petOnlyQuest": false,
       "m_activateResults": {
@@ -700,7 +717,9 @@
       },
       "m_hideGoalFloatyText": false,
       "m_behaviors": null,
-
+      "m_npcAdjectives": [
+        "Magma_Man"
+      ]
     },
     {
       "$type": "Imcodec.ObjectProperty.TypeCache.PersonaGoalTemplate, Imcodec.ObjectProperty",
@@ -725,7 +744,7 @@
       "m_genericEvents": [],
       "m_autoQualify": false,
       "m_autoComplete": false,
-      "m_destinationZone": "",
+      "m_destinationZone": "WizardCity/WC_Streets/Interiors/WC_Firecat_H2",
       "m_dialogList": {
         "$type": "Imcodec.ObjectProperty.TypeCache.ActorDialogList, Imcodec.ObjectProperty",
         "m_dialogs": [
@@ -800,8 +819,7 @@
                 "m_restartMusicFadeTime": 0.0,
                 "m_meetsRequirements": true,
                 "m_secondaryCameraInitalDelay": 0.0,
-                "m_displayButtonsOnTimedDialog": false,
-
+                "m_displayButtonsOnTimedDialog": false
               },
               {
                 "$type": "Imcodec.ObjectProperty.TypeCache.NPCDialogEntry, Imcodec.ObjectProperty",
@@ -871,8 +889,7 @@
                 "m_restartMusicFadeTime": 0.0,
                 "m_meetsRequirements": true,
                 "m_secondaryCameraInitalDelay": 0.0,
-                "m_displayButtonsOnTimedDialog": false,
-
+                "m_displayButtonsOnTimedDialog": false
               }
             ],
             "m_madlibs": [
@@ -924,8 +941,7 @@
       },
       "m_hideGoalFloatyText": false,
       "m_behaviors": null,
-
-      "m_personaName": "",
+      "m_personaName": "WC-FIRECAT-NPC04",
       "m_usePatron": false
     }
   ],
@@ -1051,7 +1067,7 @@
             "m_soundFile": "|Sound_Dialogue_005|WorldData|Sound/Dialogue/LizzoFireSpitter_005_06.mp3",
             "m_action": "",
             "m_dialogEvent": "",
-            "m_actorTemplateID": 0,
+            "m_actorTemplateID": 1521043,
             "m_cameraName": "LOCATION",
             "m_interpolationDuration": 1.0,
             "m_cameraOffsetX": -8564.342,
@@ -1103,8 +1119,7 @@
             "m_restartMusicFadeTime": 0.0,
             "m_meetsRequirements": true,
             "m_secondaryCameraInitalDelay": 0.0,
-            "m_displayButtonsOnTimedDialog": false,
-
+            "m_displayButtonsOnTimedDialog": false
           },
           {
             "$type": "Imcodec.ObjectProperty.TypeCache.NPCDialogEntry, Imcodec.ObjectProperty",
@@ -1172,8 +1187,7 @@
             "m_restartMusicFadeTime": 0.0,
             "m_meetsRequirements": true,
             "m_secondaryCameraInitalDelay": 0.0,
-            "m_displayButtonsOnTimedDialog": false,
-
+            "m_displayButtonsOnTimedDialog": false
           },
           {
             "$type": "Imcodec.ObjectProperty.TypeCache.NPCDialogEntry, Imcodec.ObjectProperty",
@@ -1241,8 +1255,7 @@
             "m_restartMusicFadeTime": 0.0,
             "m_meetsRequirements": true,
             "m_secondaryCameraInitalDelay": 0.0,
-            "m_displayButtonsOnTimedDialog": false,
-
+            "m_displayButtonsOnTimedDialog": false
           },
           {
             "$type": "Imcodec.ObjectProperty.TypeCache.NPCDialogEntry, Imcodec.ObjectProperty",
@@ -1310,8 +1323,7 @@
             "m_restartMusicFadeTime": 0.0,
             "m_meetsRequirements": true,
             "m_secondaryCameraInitalDelay": 0.0,
-            "m_displayButtonsOnTimedDialog": false,
-
+            "m_displayButtonsOnTimedDialog": false
           },
           {
             "$type": "Imcodec.ObjectProperty.TypeCache.NPCDialogEntry, Imcodec.ObjectProperty",
@@ -1379,8 +1391,7 @@
             "m_restartMusicFadeTime": 0.0,
             "m_meetsRequirements": true,
             "m_secondaryCameraInitalDelay": 0.0,
-            "m_displayButtonsOnTimedDialog": false,
-
+            "m_displayButtonsOnTimedDialog": false
           }
         ],
         "m_madlibs": [
